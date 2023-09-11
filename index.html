@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-slate-800">
+    <div class="custom-container flex justify-start p-2.5 gap-2">
+        <div class="bg-slate-300 w-[220px] p-3 rounded-lg cursor-pointer h-full" id="column">
+            <h3 class="p-2">TODO</h3>
+            <p class="bg-white p-2 rounded-lg my-1.5" id="build" draggable="true">Build CSS</p>
+            <p class="bg-white p-2 rounded-lg my-1.5" id="build" draggable="true">Build HTML</p>
+            <p class="bg-white p-2 rounded-lg my-1.5" id="build" draggable="true">Build JS</p>
+            <p class="bg-white p-2 rounded-lg my-1.5" id="build" draggable="true">Build React</p>
+            <div class="p-2 opacity-60">+ Add to card</div>
+        </div><div class="bg-slate-300 w-[220px] p-3 rounded-lg cursor-pointer h-full" id="column" >
+            <h3 class="p-2">In Progress</h3>
+            <div class="p-2 opacity-60">+ Add to card</div>
+        </div>
+        <div class="bg-slate-300 w-[220px] p-3 rounded-lg cursor-pointer h-full" id="column">
+            <h3 class="p-2">Done</h3>
+            <div class="p-2 opacity-60">+ Add to card</div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="main.js"></script>
+</html>
